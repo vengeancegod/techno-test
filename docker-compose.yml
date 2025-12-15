@@ -1,0 +1,22 @@
+services:
+  postgres:
+    image: postgres:latest
+    container_name: techno-db
+    environment:
+      POSTGRES_DB: tasks
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  #app:
+   # build: .
+    #ports: 
+     # - "8080:8080"
+    #depends_on:
+    # - postgres 
+      
+volumes:
+  postgres_data:

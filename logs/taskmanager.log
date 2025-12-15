@@ -1,0 +1,14 @@
+{"level":"info","time":"2025-12-16 01:00:16","message":"Starting CLI"}
+{"level":"info","component":"repository.task","task_id":24,"rows_affected":1,"duration":6.503399,"time":"2025-12-16 01:00:17","message":"Task deleted successfully"}
+{"level":"info","time":"2025-12-16 01:00:33","message":"Starting CLI"}
+{"level":"info","component":"repository.task","title":"Тест логов 1","desc_len":39,"time":"2025-12-16 01:00:33","message":"Creating task"}
+{"level":"info","component":"repository.task","task_id":70,"title":"Тест логов 1","status":"not done","duration":18.169665,"time":"2025-12-16 01:00:33","message":"Task created successfull"}
+{"level":"info","component":"repository.task","status":"\u0001","count":0,"duration":33.839902,"time":"2025-12-16 01:20:38","message":"Retrieved tasks by status"}
+{"level":"info","component":"timer.task_cleaner","count":0,"duration":36.182797,"time":"2025-12-16 01:20:38","message":"found completed tasks"}
+{"level":"debug","component":"timer.task_cleaner","time":"2025-12-16 01:21:08","message":"task cleaner tick"}
+{"level":"info","component":"repository.task","status":"\u0001","count":0,"duration":1.535251,"time":"2025-12-16 01:21:08","message":"Retrieved tasks by status"}
+{"level":"info","component":"timer.task_cleaner","count":0,"duration":1.704477,"time":"2025-12-16 01:21:08","message":"found completed tasks"}
+{"level":"debug","component":"timer.task_cleaner","time":"2025-12-16 01:21:38","message":"task cleaner tick"}
+{"level":"info","component":"repository.task","status":"\u0001","count":0,"duration":1.497608,"time":"2025-12-16 01:21:38","message":"Retrieved tasks by status"}
+{"level":"info","component":"timer.task_cleaner","count":0,"duration":1.814338,"time":"2025-12-16 01:21:38","message":"found completed tasks"}
+{"level":"info","component":"timer.task_cleaner","time":"2025-12-16 01:21:43","message":"task cleaner stopped by context"}
